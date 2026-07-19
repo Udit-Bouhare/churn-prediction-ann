@@ -6,7 +6,7 @@ Predict whether a bank customer is likely to leave the bank using a Deep Learnin
 
 Add your Streamlit URL here:
 
-[Live App](YOUR_STREAMLIT_URL)
+[Live App]([YOUR_STREAMLIT_URL](https://churn-prediction-ann-jbnbocbxdphxo3ymeqtlsr.streamlit.app/))
 
 ---
 
