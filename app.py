@@ -15,7 +15,7 @@ st.markdown("Predict whether a customer will **leave the bank or not**")
 model = ANN(num_features=12) 
 model.load_state_dict(
     torch.load(
-        "model.pth",
+        "best_model.pth",
     )
 )
 model.eval()
