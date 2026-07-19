@@ -238,16 +238,6 @@ Churn Probability: 0.78
 
 ---
 
-## 📸 Application Screenshot
-
-Add screenshot here:
-
-```text
-screenshots/app.png
-```
-
----
-
 ## 🔮 Future Improvements
 
 - Hyperparameter Tuning
@@ -262,10 +252,9 @@ screenshots/app.png
 
 ## 👨‍💻 Author
 
-**Udit Bauhare**
+**Udit Sharma**
 
-- GitHub: https://github.com/YOUR_USERNAME
-- LinkedIn: https://linkedin.com/in/YOUR_PROFILE
+- LinkedIn: https://www.linkedin.com/in/udit-sharma-5533082aa/
 
 ---
 
