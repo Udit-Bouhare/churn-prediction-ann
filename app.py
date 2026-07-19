@@ -12,12 +12,9 @@ st.title("📊 Customer Churn Prediction")
 st.markdown("Predict whether a customer will **leave the bank or not**")
 
 # -------------------- LOAD MODEL --------------------
-model = ANN(num_features=12) 
-model.load_state_dict(
-    torch.load(
-        "best_model.pth",
-    )
-)
+checkpoint = torch.load("model.pth")
+model = ANN(num_features=checkpoint["num_features"])
+model.load_state_dict(checkpoint["model_state"])
 model.eval()
 
 # -------------------- LOAD PREPROCESSORS --------------------
