@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+cat > .gitignore << EOF
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pth
+runs/
+EOF
